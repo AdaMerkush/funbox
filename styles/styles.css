@@ -1,0 +1,53 @@
+:root {
+  --main-black: #000000;
+  --add-black: #666666;
+  --main-white: #FFFFFF;
+  --back-white: #F2F2F2;
+  --main-blue: #1698D9;
+  --main-pink: #D91667;
+  --main-grey: #B3B3B3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--main-black);
+  background-color: var(--add-black);
+  background-image: url("../images/pattern.png");
+  font-family: 'Open Sans', 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0 15px;
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  body {
+    background-image: url("pattern@2x.jpg");
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+link {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

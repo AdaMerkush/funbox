@@ -12,22 +12,78 @@
   </head>
   <body>
     <main class="main">
-      <h1 class="main__title visually-hidden">Еда для кота</h1>
+      <h1 class="main__title visually-hidden">Ты сегодня покормил</h1>
       <ul class="product-list">
-        <li class="product-item">
-          <div class="product-item__product-card product-card">
-            <p class="product-card__description product-card-description">Сказочное заморское явство</p>
-            <h2 class="product-card__title product-card-title">Нямушка</h2>
-            <p class="product-card__consist product-card-consist">с фуагра</p>
-            <p class="product-card__promo product-card-promo">10 порций мышь в подарок</p>
-            <img class="product-card__image product-card-image" src="./images/cat.png" alt="кот">
-            <div class="product-card__label product-card-label label label_blue">
-              <p class="label__weight label-weight">0,5</p>
-              <p class="label__measure label-measure">кг</p>
+        <li class="product-list__item">
+          <a class="product-item__product-card product-card">
+            <p class="product-card__description product-card__description_default">Сказочное заморское явство</p>
+            <p class="product-card__description product-card__description_selected-and-hover">Котэ не одобряет?</p>
+            <h2 class="product-card__title">Нямушка</h2>
+            <p class="product-card__consist">с фуагра</p>
+            <p class="product-card__promo"><b>10</b> порций мышь в подарок</p>
+            <img class="product-card__image" src="./images/cat.png" alt="кот" width="320" height="488">
+            <div class="product-card__label label">
+              <p class="label__weight">0,5 <br>
+                <span class="label__measure">кг</span>
+              </p>
             </div>
-          </div>
-          <p class="product-item__underline product-item-underline">
-            Чего сидишь? Порадуй котэ, <a class="product-item__link product-item-link" href="#">купи</a>
+          </a>
+          <p class="product-item-hint product-item-hint_default">
+            Чего сидишь? Порадуй котэ, <a href="#">купи</a>
+          </p>
+          <p class="product-item-hint product-item-hint_selected">
+            Печень утки разварная с артишоками.
+          </p>
+          <p class="product-item-hint product-item-hint_disable">
+            Печалька, с фуа-гра закончился.
+          </p>
+        </li>
+        <li class="product-list__item">
+          <a class="product-item__product-card product-card">
+            <p class="product-card__description product-card__description_default">Сказочное заморское явство</p>
+            <p class="product-card__description product-card__description_selected-and-hover">Котэ не одобряет?</p>
+            <h2 class="product-card__title">Нямушка</h2>
+            <p class="product-card__consist">с рыбой</p>
+            <p class="product-card__promo"><b>40</b> порций 2 мыши в подарок</p>
+            <img class="product-card__image" src="./images/cat.png" alt="кот" width="320" height="488">
+            <div class="product-card__label label">
+              <p class="label__weight">2 <br>
+                <span class="label__measure">кг</span>
+              </p>
+            </div>
+          </a>
+          <p class="product-item-hint product-item-hint_default">
+            Чего сидишь? Порадуй котэ, <a href="#">купи</a>
+          </p>
+          <p class="product-item-hint product-item-hint_selected">
+            Головы щучьи с чесноком да свежайшая сёмгушка.
+          </p>
+          <p class="product-item-hint product-item-hint_disable">
+            Печалька, с рыбой закончился.
+          </p>
+        </li>
+        <li class="product-list__item">
+          <a class="product-item__product-card product-card">
+            <p class="product-card__description product-card__description_default">Сказочное заморское явство</p>
+            <p class="product-card__description product-card__description_selected-and-hover">Котэ не одобряет?</p>
+            <h2 class="product-card__title">Нямушка</h2>
+            <p class="product-card__consist">с курой</p>
+            <p class="product-card__promo"><b>100</b> порций 5 мышей в подарок <br>заказчик доволен</p>
+            <img class="product-card__image" src="./images/cat.png" alt="кот" width="320" height="488">
+            <div class="product-card__label label">
+              <p class="label__weight">5 <br>
+                <span class="label__measure">кг</span>
+              </p>
+            </div>
+          </a>
+          <p class="product-item-hint product-item-hint_default">
+            Чего сидишь? Порадуй котэ, <a href="#">купи</a>
+          </p>
+          <p class="product-item-hint product-item-hint_selected">
+            Филе из цыплят с трюфелями в бульоне.
+          </p>
+          <p class="product-item-hint product-item-hint_disable">
+            Печалька, с курой закончился.
           </p>
         </li>
       </ul>
